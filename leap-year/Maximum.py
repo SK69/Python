@@ -9,10 +9,10 @@ while True:
 maxlen = 0
 
 while n >= 1:
-    print("Enter word number ", n-(n-1))
+    print("Enter word number ")
     word = str(input())
     print("max= ", maxlen, "n= ", n)
-    if 2 >= len(word) <= 8 and len(word) > maxlen:
+    if 2 <= len(word) <= 8 and len(word) > maxlen:
         max = len(word)
         print(n)
         words = word
